@@ -9,10 +9,10 @@
 
 <script>
 
-import LeftMenu from './LeftMenu'
-import PapersList from './PapersList'
-import PaperDetail from './PaperDetail'
-import BottomRightButtons from './BottomRightButtons'
+import LeftMenu from './LeftMenu.vue'
+import PapersList from './PapersList.vue'
+import PaperDetail from './PaperDetail.vue'
+import BottomRightButtons from './BottomRightButtons.vue'
 
 
 export default {
