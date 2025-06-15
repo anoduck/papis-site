@@ -1,6 +1,6 @@
-# my-project
+# Papis Web
 
-> A Vue.js project
+> Host your papis library on the web
 
 ## Build Setup
 
