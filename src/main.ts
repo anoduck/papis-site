@@ -1,6 +1,11 @@
 import '../src/assets/main.css'
 
-import { createApp } from 'vue'
-import App from '../src/App.vue'
+import Vue from 'vue'
+// import { createApp } from 'vue'
+import VueLodash from 'vue-lodash'
+import App from './App.vue'
+import lodash from 'lodash';
+import store from '../src/store'
 
-createApp(App).mount('#app')
+
+Vue.createApp(App).mount('#app')
