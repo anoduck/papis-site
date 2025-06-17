@@ -18,8 +18,14 @@
 
 
 <script>
+import { createStore, mapGetters, mapActions } from 'vuex';
+import papers from '../store/modules/papers.js';
 
-import { mapGetters, mapActions } from 'vuex'
+const store = createStore({
+    modules: {
+        papers
+    }
+})
 
 export default {
   name: 'PapersList',
@@ -30,12 +36,12 @@ export default {
   }),
 
   created () {
-    this.$store.dispatch('getAllPapers')
+    store.dispatch('getAllPapers')
   },
 
   methods: {
     selectPaper(s) {
-      this.$store.dispatch('setActivePaper', s);
+      store.dispatch('setActivePaper', s);
     },
 
   }

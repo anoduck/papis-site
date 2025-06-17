@@ -30,13 +30,13 @@ const _papers = [
 export default {
   getPapers (cb) {
     // uncomment me, when backend is ready
-    // axios.get('http://localhost:8888/sheets')
-    //     .then(response => {
-    //          cb(response.data)
-    //     })
-    //     .catch(error => {
-    //       console.log(error);
-    //     })
+    axios.get('http://localhost:8888/sheets')
+        .then(response => {
+             cb(response.data)
+        })
+        .catch(error => {
+          console.log(error);
+        })
 
     setTimeout(() => cb(_papers), 100)
   },

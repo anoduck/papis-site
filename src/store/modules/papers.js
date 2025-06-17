@@ -1,5 +1,6 @@
 import papers_api from '../../api/papers_api'
-import {_} from 'vue-underscore';
+// import {_} from 'vue-underscore';
+import _ from 'vue-lodash';
 
 
 const state = {

@@ -14,8 +14,8 @@
 
 
 <script>
-window.$ = window.jQuery = require('jquery');
-import { mapGetters, mapActions } from 'vuex'
+// window.$ = window.jQuery = require('jquery');
+import { mapGetters, mapActions } from 'vuex';
 
 export default {
   name: 'PaperDetail',
